@@ -1,0 +1,3 @@
+USER STORY
+
+As an application user, I can search for both customers and account using a customers social or account number. I am also able to create both customers and accounts. Accounts available for creation are checking, savings, and cd.

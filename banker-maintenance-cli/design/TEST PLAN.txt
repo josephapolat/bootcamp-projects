@@ -1,0 +1,38 @@
+TEST PLAN
+
+CDTest:
+
+correctAccountNumber tests that the object returns the correct account number given an account number
+CorrectAccountType tests that the object returns the correct account type given an account type
+
+CorrectAccountSigners tests that the object returns the correct account signers given an list of account signers
+
+correctInterestRate tests that the object returns the correct interest rate given an interest rate
+
+correctTerm returns the correct term given a CD term
+
+correctMaturity tests if the object returns the correct maturity date
+
+SavingsAccountTest:
+
+correctAccountNumber tests that the object returns the correct account number given an account number
+CorrectAccountType tests that the object returns the correct account type given an account type
+
+CorrectAccountSigners tests that the object returns the correct account signers given an list of account signers
+
+correctInterestRate tests that the object returns the correct interest rate given an interest rate
+
+CheckingAccountTest:
+
+correctAccountNumber tests that the object returns the correct account number given an account number
+CorrectAccountType tests that the object returns the correct account type given an account type
+
+CorrectAccountSigners tests that the object returns the correct account signers given an list of account signers
+
+CustomerTest:
+
+correctSSN tests that the object returns the correct social security number for a customer
+
+correctFirstName tests that an object returns the correct first name for a customer
+
+correctLastName tests that an object returns the correct last name for a customer

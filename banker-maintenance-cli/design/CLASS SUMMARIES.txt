@@ -1,0 +1,73 @@
+CLASS SUMMARIES
+
+Customer Class: 
+
+Constructor CUSTOMER
+Variables SSN (String), firstName (String), lastName (String)
+Method getFirstName returns customer's first name
+Method getLastName returns customer's last name
+Method getSSN returns customer's SSN
+*DESCRIPTION: Create a new customer object with standard identifying qualities*
+
+BankAccount Class:
+
+Constructor BankAccount
+Variables acocuntType (String), accountNumber (String), signers (String[])
+Method getAccountType returns the type of account
+Method getAccountNumber returns the account number
+Method getSigners returns a list of current signers
+*DESCRIPTION: Parent class to CheckingAccount, SavingAccount, and CD classes. Outlines basics every account should have*
+
+CheckingAccount Class:
+
+Constructor CheckingAccount
+No additional variables from parent class
+No additional methods from parent class
+*DESCRIPTION: Subclass of BankAccount. Creates a checking account*
+
+SavingsAccount Class:
+
+Constructor SavingsAccount
+Variable interestRate (Double)
+Method getInterestRate returns the interest rate
+*DESCRIPTION: Subclass of BankAccount. Creates a savings account which includes an interest rate to be paid on balances*
+
+CD Class:
+
+Constructor CD
+Variables interestRate (Double), term (int), maturity (String)
+Method getInterestRate returns the interest rate
+Method getTerm returns the term of the CD
+Method getMaturity returns the date of maturity for the CD
+*DESCRIPTION: Subclass of BankAccount. Creates a CD that includes an interest rate, term on months, and a maturity date set for x amount of months after current date (which serves as the open date)*
+
+BasicConsole Interface:
+
+Method printBanner
+Method printMessage
+Method printBlankLine
+Method getMainMenuSelection
+Method getCustomerName
+Method getAccountNumber
+Method getUserYesNo
+Method getCustomerSocial
+Method getCustomerFirstName
+Method getCustomerLastName
+Method getAccountType
+Method getNumSigners
+Method getInterestRate
+Method getTerm
+*DESCRIPTION: Outlines required methods for SystemInOutConsole to implement*
+
+SystemInOutConsole Class:
+
+Methods same as implemented interface
+*DESCRIPTION: Controls printing information to the console and getting input from the user*
+
+BankerView Class:
+
+*DESCRIPTION: Allows the BankerController class to access the console to print data and retrieve data from user*
+
+BankerController Class:
+
+
